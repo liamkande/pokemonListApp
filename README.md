@@ -6,7 +6,7 @@ This is a React app that displays a list of Pokemon fetched from the PokeAPI. Ea
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/react-pokemon-app.git
+   git clone https://github.com/liamkande/pokemonListApp.git
 
 2. Navigate to the project directory:
 

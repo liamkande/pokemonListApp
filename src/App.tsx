@@ -71,8 +71,14 @@ const PokeList: React.FC = () => {
 
   return (
     <div>
-      {page_num >= 1 && <button onClick={handlePrevPage}>Prev</button>}
-      <button onClick={handleNextPage}>Next</button>
+      {page_num >= 1 && (
+        <button className="button" onClick={handlePrevPage}>
+          Prev
+        </button>
+      )}
+      <button className="button" onClick={handleNextPage}>
+        Next
+      </button>
       <ul>
         {pokemon_list?.map((pokemon) => (
           <Pokemon key={pokemon.url} url={pokemon.url} />
